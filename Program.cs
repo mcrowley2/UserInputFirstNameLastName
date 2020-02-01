@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace UserInputFirstNameLastName
+namespace UserInputMarcusCrowley
 {
     class Program
     {
