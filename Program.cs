@@ -10,16 +10,10 @@ namespace UserInputFirstNameLastName
             string name;
             
             // Introduce yourself
-            Console.WriteLine("Hi, this is Marcus Crowley!");
-
-            // Ask user to type user's name
-            Console.Write("What is your name?: ");
+            Console.WriteLine("Hi, this is Marcus Crowley! What is your name? Type below and hit enter:");
 
             // Store whatever is typed into the user's input variable
             name = Console.ReadLine();
-
-            // Print blank line
-            Console.WriteLine();
 
             // Show what the user entered
             Console.WriteLine("Nice to meet you {0}!", name);
